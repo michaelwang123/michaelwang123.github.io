@@ -1,0 +1,17 @@
+.home-info {
+    padding: 4rem 2rem;
+    margin: 4rem auto;
+    max-width: 100ch;
+    line-height: 2;
+}
+
+.home-content {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 120ch;
+}
+
+/* 移除.post-entry隐藏设置 */
+.post-entry {
+    display: none !important;
+}
