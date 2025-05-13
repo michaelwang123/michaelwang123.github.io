@@ -10,8 +10,8 @@ description: "欢迎来到Michael的个人博客，这里记录我的技术成�
 ### 🧑‍💻 技术领域
 - Flink、Spark、Kafka等大数据开发
 - Java、Go、Python
-- 云原生与自动化运维
-- Hugo 静态网站与博客搭建1
+- Prometheus、Grafana
+
 
 ### 🎯 兴趣爱好
 - 篮球
@@ -21,7 +21,5 @@ description: "欢迎来到Michael的个人博客，这里记录我的技术成�
 ### 🔗 相关链接
 - [技术文章](/posts/)
 - [我的GitHub](https://github.com/michaelwang123)
-- [关于本站](/about/)
 - [母亲的传记](/posts/mother-biography/)
 - [父亲的传记](/posts/father-biography/)
-> 欢迎通过评论或邮件与我交流！
