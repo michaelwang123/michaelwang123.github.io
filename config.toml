@@ -2,7 +2,7 @@ baseURL = 'https://michaelwang123.github.io/'
 languageCode = 'zh-cn'
 title = 'Michael的博客'
 theme = 'PaperMod'
-publishDir = "dist"
+
 
 [params]
   contentPadding = "3rem"
