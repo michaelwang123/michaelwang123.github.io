@@ -1,0 +1,18 @@
+# 核心忽略项：Hugo 生成目录
+/public/         # 忽略所有自动生成的静态文件
+
+# 开发环境临时文件
+/resources/_gen/  # Hugo 资源缓存[6](@ref)
+.hugo_build.lock  # 构建锁文件
+
+# 操作系统生成文件
+.DS_Store        # macOS 系统文件
+Thumbs.db        # Windows 缩略图缓存
+*.swp            # Vim 临时文件
+
+# IDE 配置文件
+.idea/           # JetBrains IDE
+.vscode/         # VS Code
+
+# 调试日志
+*.log            # 构建日志文件[7](@ref)
