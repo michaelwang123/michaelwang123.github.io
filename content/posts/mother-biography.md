@@ -12,6 +12,6 @@ showFullContent: false
 ![母亲-2023-三亚市](/images/mother/2023/母亲-2023-三亚.jpg)
 
 ### 目录
-- [妈妈的童年](/childhood.md)
+- [妈妈的童年](childhood.md)
 
  
