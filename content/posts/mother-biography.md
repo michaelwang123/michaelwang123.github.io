@@ -10,8 +10,7 @@ showFullContent: false
 > 本文记录了母亲的一生，致敬她的坚韧与爱。
 
 ![母亲-2022-唐镇-全家福](/images/mother/2022/母亲-2022-唐镇-全家福.jpg)
-母亲-2023-三亚
-![母亲-2023-三亚](/images/mother/2023/母亲-2023-三亚.jpg)
+
 ### 目录
 - [妈妈的童年](/posts/mother-biography/childhood/)
 
