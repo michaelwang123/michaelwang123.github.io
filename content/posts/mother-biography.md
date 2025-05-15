@@ -12,6 +12,6 @@ showFullContent: false
 ![母亲-2023-三亚市](/images/mother/2023/母亲-2023-三亚.jpg)
 
 ### 🔗 生平履历
-- [妈妈小时候](mother-biography/childhood.md)
+- [妈妈小时候](/childhood.md)
 
  
