@@ -21,6 +21,9 @@
      - 示例：通过 Cloudflare Workers 代理 GitHub 原始链接，优化访问路径和速度。  
    - **优点**：显著提升全球访问速度；隐藏 GitHub 原始路径，增强稳定性。
 
+https://michaelwang123.github.io/images/img/anismall.jpg
+通过jsdelivr cdh加速后，地址变为
+https://cdn.jsdelivr.net/gh/michaelwang123/images@main/img/anismall.jpg
 ---
 
 ### 二、对图片的优化要求

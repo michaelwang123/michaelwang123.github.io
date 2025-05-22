@@ -24,3 +24,4 @@ description: "欢迎来到Michael的个人博客，这里记录我的技术成�
 - [母亲的传记](/posts/mother-biography/)
 - [父亲的传记](/posts/father-biography/)
 - [我的猫](/posts/my-cat/)
+- [我的baby](/posts/my-baby/)
