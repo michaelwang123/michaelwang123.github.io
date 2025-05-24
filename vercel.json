@@ -2,5 +2,5 @@
   "buildCommand": "export PATH=$PATH:/usr/local/go/bin && go mod download && hugo --gc --minify",
   "outputDirectory": "public",
   "framework": "hugo",
-  "installCommand": "curl -OL https://golang.org/dl/go1.22.1.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.1.linux-amd64.tar.gz"
+  "installCommand": "curl -OL https://golang.org/dl/go1.22.1.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.1.linux-amd64.tar.gz && curl -L https://github.com/gohugoio/hugo/releases/download/v0.123.8/hugo_extended_0.123.8_linux-amd64.tar.gz -o hugo.tar.gz && tar -xzf hugo.tar.gz && mv hugo /usr/local/bin/"
 } 
