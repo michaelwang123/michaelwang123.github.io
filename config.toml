@@ -1,7 +1,6 @@
 baseURL = 'https://michaelwang123.github.io/'
 languageCode = 'zh-cn'
 title = 'Michael的博客'
-theme = 'PaperMod'
 
 
 [params]
@@ -13,6 +12,6 @@ theme = 'PaperMod'
 [module]
   [[module.imports]]
     path = "github.com/adityatelange/hugo-PaperMod"
-    disable = false  # 确保主题启用
+    disable = false
 
 disableKinds = ['taxonomy', 'term', 'rss']  # 仅禁用无关功能
