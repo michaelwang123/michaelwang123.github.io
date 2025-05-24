@@ -9,7 +9,11 @@ export PATH=$PATH:/usr/local/go/bin
 # 安装 Hugo
 curl -L https://github.com/gohugoio/hugo/releases/download/v0.123.8/hugo_extended_0.123.8_linux-amd64.tar.gz -o hugo.tar.gz
 tar -xzf hugo.tar.gz
-mv hugo /usr/local/bin/
+mv hugo /usr/local/bin/hugo
+export PATH=/usr/local/bin:$PATH
+
+# 验证 Hugo 版本
+hugo version
 
 # 构建网站
 go mod download
