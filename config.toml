@@ -3,6 +3,10 @@ languageCode = 'zh-cn'
 title = 'Michael的博客'
 theme = 'PaperMod'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   contentPadding = "3rem"
