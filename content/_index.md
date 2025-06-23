@@ -71,9 +71,34 @@ Docker · Kubernetes · Prometheus · Grafana
 ## 🌟 技术理念
 
 > **"技术服务业务，架构驱动增长"**
+> 
+> 专注于大数据生态建设、实时计算架构设计和云原生技术实践，致力于用技术解决业务痛点，用架构驱动业务增长。
 
-专注于大数据生态建设、实时计算架构设计和云原生技术实践，  
-致力于用技术解决业务痛点，用架构驱动业务增长。
+### 💡 核心价值观
+
+<div class="tech-grid">
+
+<div class="tech-card">
+<strong>🎯 业务导向</strong>
+技术选型服务业务需求，架构设计支撑业务发展
+</div>
+
+<div class="tech-card">
+<strong>⚡ 性能至上</strong>
+追求极致性能优化，毫秒级响应时间，PB级数据处理
+</div>
+
+<div class="tech-card">
+<strong>🔧 工程实践</strong>
+代码质量、自动化测试、持续集成，工程化思维
+</div>
+
+<div class="tech-card">
+<strong>🚀 持续学习</strong>
+紧跟技术趋势，深度与广度并重，理论与实践结合
+</div>
+
+</div>
 
 ---
 
