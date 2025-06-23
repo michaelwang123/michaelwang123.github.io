@@ -1,7 +1,7 @@
 ---
 title: "🚀 技术栈与架构实践"
 description: "15年开发经验，从Java工程师到大数据架构师的技术成长之路"
-date: 2024-01-01T00:00:00+08:00
+date: 2025-06-22T00:00:00+08:00
 weight: 1
 ShowToc: true
 TocOpen: true
@@ -101,12 +101,32 @@ timeline
 
 ---
 
+## 🚀 自研项目展示
+
+### 💻 Go Foundation 微服务框架
+- **技术栈**: Go + Gin + MySQL + Redis + Elasticsearch + Prometheus
+- **核心价值**: 现代化微服务基础架构，双服务设计，支持高并发QPS
+- **技术挑战**: JWT/API Key双认证、多协议支持、全链路监控
+- **详细介绍**: [Go Foundation项目实践分享](/posts/myself/the_skill_learnd/golang/go-foundation项目README/)
+
+### 🌐 Foundation TypeScript Vue 企业级前端
+- **技术栈**: Vue 3 + TypeScript + Pinia + GraphQL + Element Plus
+- **核心价值**: 企业级设备监控管理系统，服务企业客户
+- **技术挑战**: 大数据可视化、实时监控、Excel处理、地图集成
+- **详细介绍**: [Foundation TypeScript Vue项目架构与实现](/posts/myself/the_skill_learnd/front/vue/技术博客-Foundation%20TypeScript%20Vue%20项目架构与实现/)
+
+### ⚡ PyFlink 实时数据处理系统
+- **技术栈**: PyFlink + Kafka + MySQL + Elasticsearch + Redis
+- **核心价值**: IoT数据实时丰富化处理，支持10万+设备并发监控
+- **技术挑战**: 实时查找连接、地理围栏计算、毫秒级响应、智能去重
+- **详细介绍**: [PyFlink实战](content/posts/myself/the_skill_learnd/flink-python/flink-python项目README.md)
+
 ## 📚 技术博客目录
 
 ### 🔗 热门文章
 
-- [🐳 Docker镜像构建最佳实践](/posts/tec/docker/镜像构建/)
-- [🚀 Flink地理围栏系统设计](/posts/tec/flink/blog_geo_fence_system/)
+- [🐳 Docker镜像构建最佳实践](/posts/the_skill_learnd/docker/镜像构建/)
+- [🚀 Flink地理围栏系统设计](/posts/the_skill_learnd/flink/blog_geo_fence_system/)
 
 ### 📖 更多内容
 正在持续更新中，涵盖：
@@ -139,4 +159,4 @@ timeline
 
 ---
 
-*最后更新时间: 2024年1月*
+*最后更新时间: 2025年6月*
