@@ -61,7 +61,7 @@ Docker · Kubernetes · Prometheus · Grafana
 
 <div class="featured-content">
 
-### 🌟 [我的生活](/posts/myself/mylife/)
+### 🌟 [我的生活](/posts/mylife/)
 *技术之外的精彩人生 · 让你更全面地了解我*
 
 </div>

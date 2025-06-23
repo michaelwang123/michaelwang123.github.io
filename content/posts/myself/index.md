@@ -155,7 +155,7 @@ timeline
 
 - 📧 **邮箱**: [286790238@qq.com]
 - 🐙 **GitHub**: [michaelwang123](https://github.com/michaelwang123)
-- 🌟 **我的生活**: [了解技术之外的我](/posts/myself/mylife/)
+- 🌟 **我的生活**: [了解技术之外的我](/posts/mylife/)
 
 ---
 
