@@ -61,6 +61,13 @@ Docker · Kubernetes · Prometheus · Grafana
 
 <div class="featured-content">
 
+### 🌟 [我的生活](/posts/myself/mylife/)
+*技术之外的精彩人生 · 让你更全面地了解我*
+
+</div>
+
+<div class="featured-content">
+
 ### 🔗 [开源项目](https://github.com/michaelwang123)
 *Go微服务框架 · Vue企业级应用 · Flink实时计算*
 
