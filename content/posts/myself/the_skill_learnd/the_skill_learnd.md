@@ -387,7 +387,7 @@ timeline
 ### 🐳 Docker 容器化技术
 
 #### 📦 镜像构建与优化
-- **[Docker多架构镜像构建实践](/posts/myself/the_skill_learnd/docker/镜像构建/)**
+- **[Docker多架构镜像构建实践](/posts/myself/the_skill_learnd/docker/docker-image-build/)**
   - 跨平台镜像构建的核心逻辑与最佳实践
   - Docker Buildx 多架构镜像构建详解
   - Windows、Mac、Linux 环境的统一容器化方案
