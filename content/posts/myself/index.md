@@ -103,6 +103,12 @@ timeline
 
 ## 🚀 自研项目展示
 
+### ⚡ PyFlink 实时数据处理系统
+- **技术栈**: PyFlink + Kafka + MySQL + Elasticsearch + Redis
+- **核心价值**: IoT数据实时丰富化处理，支持10万+设备并发监控
+- **技术挑战**: 实时查找连接、地理围栏计算、毫秒级响应、智能去重
+- **详细介绍**: [PyFlink实战](/posts/myself/the_skill_learnd/flink-python/flink-python-project-readme/)
+
 ### 💻 Go Foundation 微服务框架
 - **技术栈**: Go + Gin + MySQL + Redis + Elasticsearch + Prometheus
 - **核心价值**: 现代化微服务基础架构，双服务设计，支持高并发QPS
@@ -115,11 +121,14 @@ timeline
 - **技术挑战**: 大数据可视化、实时监控、Excel处理、地图集成
 - **详细介绍**: [Foundation TypeScript Vue项目架构与实现](/posts/myself/the_skill_learnd/front/vue/foundation-typescript-vue-project-readme/)
 
-### ⚡ PyFlink 实时数据处理系统
-- **技术栈**: PyFlink + Kafka + MySQL + Elasticsearch + Redis
-- **核心价值**: IoT数据实时丰富化处理，支持10万+设备并发监控
-- **技术挑战**: 实时查找连接、地理围栏计算、毫秒级响应、智能去重
-- **详细介绍**: [PyFlink实战](/posts/myself/the_skill_learnd/flink-python/flink-python-project-readme/)
+### 🔗 GraphQL 企业级业务报表系统
+- **技术栈**: Node.js + TypeScript + Apollo Server + MySQL + TypeORM
+- **核心价值**: 企业级业务报表管理系统，支持灵活的数据查询与实时分析
+- **技术挑战**: GraphQL Schema设计、类型安全、性能优化、复杂业务逻辑处理
+- **项目成果**: 开发效率提升40%，API调用减少60%，维护成本显著降低
+- **详细介绍**: [GraphQL企业级后端架构实践](/posts/myself/the_skill_learnd/graphql/graphql-project-readme/)
+
+
 
 ## 📚 技术博客目录
 
