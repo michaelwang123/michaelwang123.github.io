@@ -7,6 +7,14 @@ theme = 'PaperMod'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    lineNos = true
+    style = "github"
+    lineNumbersInTable = false
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
 
 [params]
   contentPadding = "3rem"

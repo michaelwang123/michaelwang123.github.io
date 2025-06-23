@@ -113,20 +113,20 @@ timeline
 - **技术栈**: Vue 3 + TypeScript + Pinia + GraphQL + Element Plus
 - **核心价值**: 企业级设备监控管理系统，服务企业客户
 - **技术挑战**: 大数据可视化、实时监控、Excel处理、地图集成
-- **详细介绍**: [Foundation TypeScript Vue项目架构与实现](/posts/myself/the_skill_learnd/front/vue/技术博客-Foundation%20TypeScript%20Vue%20项目架构与实现/)
+- **详细介绍**: [Foundation TypeScript Vue项目架构与实现](/posts/myself/the_skill_learnd/front/vue/foundation-typescript-vue项目README/)
 
 ### ⚡ PyFlink 实时数据处理系统
 - **技术栈**: PyFlink + Kafka + MySQL + Elasticsearch + Redis
 - **核心价值**: IoT数据实时丰富化处理，支持10万+设备并发监控
 - **技术挑战**: 实时查找连接、地理围栏计算、毫秒级响应、智能去重
-- **详细介绍**: [PyFlink实战](content/posts/myself/the_skill_learnd/flink-python/flink-python项目README.md)
+- **详细介绍**: [PyFlink实战](/posts/myself/the_skill_learnd/flink-python/flink-python项目README/)
 
 ## 📚 技术博客目录
 
 ### 🔗 热门文章
 
-- [🐳 Docker镜像构建最佳实践](/posts/the_skill_learnd/docker/镜像构建/)
-- [🚀 Flink地理围栏系统设计](/posts/the_skill_learnd/flink/blog_geo_fence_system/)
+- [🐳 Docker镜像构建最佳实践](/posts/myself/the_skill_learnd/docker/镜像构建/)
+- [🚀 Flink地理围栏系统设计](/posts/myself/the_skill_learnd/flink/blog_geo_fence_system/)
 
 ### 📖 更多内容
 正在持续更新中，涵盖：
