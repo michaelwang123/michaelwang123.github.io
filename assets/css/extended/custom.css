@@ -106,50 +106,53 @@
 /* 技术理念引用样式 */
 .post-content blockquote {
     position: relative;
-    background: linear-gradient(135deg, var(--theme) 0%, rgba(var(--theme-rgb), 0.1) 100%);
+    background: var(--entry);
+    border: 1px solid var(--border);
     border-left: 4px solid var(--theme);
     border-radius: 12px;
-    padding: 1.5rem 2rem;
-    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
     font-style: italic;
     font-weight: 500;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     min-height: auto;
+    color: var(--content);
 }
 
 .post-content blockquote::before {
     content: '"';
     position: absolute;
-    top: -10px;
-    left: 20px;
-    font-size: 4rem;
+    top: -5px;
+    left: 15px;
+    font-size: 3rem;
     color: var(--theme);
-    opacity: 0.3;
+    opacity: 0.5;
     font-family: Georgia, serif;
 }
 
 .post-content blockquote::after {
     content: '"';
     position: absolute;
-    bottom: -30px;
-    right: 20px;
-    font-size: 4rem;
+    bottom: -20px;
+    right: 15px;
+    font-size: 3rem;
     color: var(--theme);
-    opacity: 0.3;
+    opacity: 0.5;
     font-family: Georgia, serif;
 }
 
 .post-content blockquote strong {
     font-size: 1.3rem;
-    color: var(--theme);
+    color: var(--content);
     display: block;
     margin-bottom: 0.5rem;
+    font-weight: 700;
 }
 
 .post-content blockquote p {
-    margin: 0.5rem 0;
-    line-height: 1.6;
+    margin: 0.3rem 0;
+    line-height: 1.5;
     font-size: 1rem;
 }
 
@@ -219,23 +222,23 @@
     }
     
     .post-content blockquote {
-        padding: 1rem 1.5rem;
-        margin: 1.5rem 0;
+        padding: 0.8rem 1rem;
+        margin: 1rem 0;
     }
     
     .post-content blockquote::before,
     .post-content blockquote::after {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .post-content blockquote::before {
-        top: -5px;
-        left: 15px;
+        top: -3px;
+        left: 10px;
     }
     
     .post-content blockquote::after {
-        bottom: -25px;
-        right: 15px;
+        bottom: -18px;
+        right: 10px;
     }
 }
 
@@ -257,11 +260,27 @@
     }
     
     .post-content blockquote {
-        padding: 0.8rem 1rem;
+        padding: 0.6rem 0.8rem;
+        margin: 0.8rem 0;
     }
     
     .post-content blockquote strong {
         font-size: 1.1rem;
+    }
+    
+    .post-content blockquote::before,
+    .post-content blockquote::after {
+        font-size: 2rem;
+    }
+    
+    .post-content blockquote::before {
+        top: -2px;
+        left: 8px;
+    }
+    
+    .post-content blockquote::after {
+        bottom: -15px;
+        right: 8px;
     }
 }
 
@@ -281,6 +300,16 @@
 
 [data-theme="dark"] .contact-section {
     background: var(--entry);
+}
+
+[data-theme="dark"] .post-content blockquote {
+    background: var(--entry);
+    border-color: var(--border);
+    color: var(--content);
+}
+
+[data-theme="dark"] .post-content blockquote strong {
+    color: var(--content);
 }
 
 /* 动画效果 */
