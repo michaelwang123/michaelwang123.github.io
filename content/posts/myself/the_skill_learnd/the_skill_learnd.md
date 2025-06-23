@@ -22,7 +22,7 @@ TocOpen: true
   - 状态管理与容错机制
   - 复杂事件处理(CEP)
   - 流批一体化架构设计
-  - [详细学习笔记](/posts/myself/the_skill_learnd/flink/)
+  - [详细学习笔记](/posts/myself/the_skill_learnd/flink/flink)
 
 - **Apache Spark** ⭐⭐⭐⭐⭐
   - RDD/DataFrame/Dataset API深度实践
