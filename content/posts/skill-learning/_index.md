@@ -6,6 +6,8 @@ weight: 1
 ShowToc: true
 TocOpen: true
 draft: false
+type: "posts"
+layout: "single"
 ---
 
 ## 🌟 写在前面
