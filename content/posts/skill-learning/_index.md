@@ -25,7 +25,7 @@ layout: "single"
   - 状态管理与容错机制
   - 复杂事件处理(CEP)
   - 流批一体化架构设计
-  - [详细学习笔记](/posts/myself/the_skill_learnd/flink/flink)
+  - [详细学习笔记](/posts/skill-learning/flink/)
 
 - **Apache Spark** ⭐⭐⭐⭐⭐
   - RDD/DataFrame/Dataset API深度实践
@@ -130,7 +130,7 @@ layout: "single"
 - **Docker** ⭐⭐⭐⭐⭐
   - 容器化最佳实践
   - 镜像构建优化
-  - [Docker学习笔记](/posts/myself/the_skill_learnd/docker/)
+  - [Docker学习笔记](/posts/skill-learning/docker/)
 
 - **Kubernetes** ⭐⭐⭐⭐
   - 集群部署与管理

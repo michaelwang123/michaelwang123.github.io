@@ -14,7 +14,7 @@ weight: 1
 
 ## 📚 文章列表
 
-- [🐳 Docker多架构镜像构建最佳实践](./docker-image-build/)
+- [🐳 Docker多架构镜像构建最佳实践](/posts/skill-learning/docker/docker-image-build/)
 
 ## 🎯 技术重点
 
