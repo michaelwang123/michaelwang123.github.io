@@ -1,3 +1,15 @@
+---
+title: "Foundation TypeScript Vue 项目：企业级设备监控管理系统"
+description: "基于 Vue 3 + TypeScript 构建的企业级设备监控管理系统，结合 GraphQL 和现代化前端架构的完整实践分享"
+date: 2024-06-23T10:00:00+08:00
+draft: false
+tags: ["Vue 3", "TypeScript", "Element Plus", "GraphQL", "Pinia", "设备监控"]
+categories: ["前端开发", "Vue.js"]
+weight: 1
+ShowToc: true
+TocOpen: true
+---
+
 # Foundation TypeScript Vue 项目：企业级设备监控管理系统
 
 ## 目录

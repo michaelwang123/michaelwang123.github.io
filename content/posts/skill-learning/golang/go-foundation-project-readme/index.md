@@ -2,6 +2,7 @@
 title: "构建现代化的Go微服务架构：Go Foundation项目实践分享"
 description: "基于 Go 1.24.2 + Gin 构建的企业级微服务基础框架，支持双服务架构、JWT/API Key双认证、多协议通信，集成 MySQL、Redis、Elasticsearch，提供完整的监控和配置管理解决方案"
 date: 2024-06-22T10:00:00+08:00
+draft: false
 tags: ["Go", "Gin", "微服务", "JWT", "MySQL", "Redis", "Elasticsearch", "Prometheus", "WebSocket", "GraphQL"]
 categories: ["技术实践", "后端开发", "微服务架构"]
 weight: 2

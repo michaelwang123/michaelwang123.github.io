@@ -2,6 +2,7 @@
 title: "🐳 Docker多架构镜像构建最佳实践"
 description: "深入解析Docker跨平台镜像构建技术，支持Windows、Mac、Linux多架构部署"
 date: 2024-06-23T10:00:00+08:00
+draft: false
 tags: ["Docker", "Multi-Architecture", "CI/CD", "DevOps"]
 categories: ["容器技术", "DevOps实践"]
 weight: 2

@@ -1,7 +1,8 @@
 ---
 title: "Apache Flink 实战系列"
 description: "基于PyFlink的实时流处理项目实战，涵盖查找连接、地理围栏等核心场景"
-date: 2024-01-15
+date: 2024-01-15T10:00:00+08:00
+draft: false
 tags: ["Flink", "PyFlink", "实时计算", "流处理", "大数据"]
 categories: ["技术博客", "实时计算"]
 ---

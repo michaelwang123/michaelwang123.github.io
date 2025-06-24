@@ -1,3 +1,15 @@
+---
+title: "Flink Kafka MySQL 查找连接实战：实时数据丰富的最佳实践"
+description: "详细介绍如何使用 PyFlink 实现 Kafka + MySQL 的查找连接，实现 IoT 设备数据的实时元数据丰富，包含完整的实战代码和最佳实践"
+date: 2024-06-23T10:00:00+08:00
+draft: false
+tags: ["Flink", "PyFlink", "Kafka", "MySQL", "实时数据处理", "查找连接", "IoT"]
+categories: ["实时数据处理", "Apache Flink"]
+weight: 1
+ShowToc: true
+TocOpen: true
+---
+
 # Flink Kafka MySQL 查找连接实战：实时数据丰富的最佳实践
 
 ## 📋 目录

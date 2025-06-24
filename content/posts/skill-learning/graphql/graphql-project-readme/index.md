@@ -1,3 +1,15 @@
+---
+title: "企业级GraphQL后端架构实践：从零构建业务报表管理系统"
+description: "分享如何使用GraphQL构建企业级业务报表管理系统的完整实践，包含技术选型、架构设计、性能优化等核心内容"
+date: 2024-06-23T10:00:00+08:00
+draft: false
+tags: ["GraphQL", "Node.js", "TypeScript", "Apollo Server", "MySQL", "企业级架构"]
+categories: ["后端开发", "GraphQL"]
+weight: 1
+ShowToc: true
+TocOpen: true
+---
+
 # 企业级GraphQL后端架构实践：从零构建业务报表管理系统
 
 ## 目录
