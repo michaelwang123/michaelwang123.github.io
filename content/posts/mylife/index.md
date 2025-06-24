@@ -128,8 +128,8 @@
 - **技术简历**: [我的技术栈与项目经验](/posts/myself/)
 - **技术博客**: [我的学习与实践](/posts/myself/the_skill_learnd/)
 - **家人介绍**: [母亲的故事](/posts/mother-biography/) · [父亲的故事](/posts/father-biography/)
-- **宠物伙伴**: [我的猫咪](/posts/my-cat/)
-- **宝宝成长**: [我的宝贝](/posts/my-baby/)
+- **慢慢在长大**: [🧒](/posts/my-baby/) · [🐱](/posts/my-cat/)
+- **在路上**: [读过的书](/posts/myself/the_book_read/) · [走过的路](/posts/myself/the_way_walked/)
 
 ### 📧 联系方式
 - **邮箱**: [286790238@qq.com](mailto:286790238@qq.com)
