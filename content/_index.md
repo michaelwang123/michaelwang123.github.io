@@ -54,7 +54,7 @@ Docker · Kubernetes · Prometheus · Grafana
 
 <div class="featured-content">
 
-### 💡 [技能学习之路](/posts/myself/the_skill_learnd/)
+### 💡 [技能学习之路](/posts/skill-learning/)
 *技能地图 · 学习方法论 · 技术博客合集*
 
 </div>
