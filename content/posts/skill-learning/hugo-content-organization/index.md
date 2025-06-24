@@ -71,6 +71,36 @@ content/posts/tutorials/
 - 没有资源文件的集中管理
 - URL结构：`/posts/tutorials/hugo-basics/`
 
+## 三种方式的对比分析
+
+让我用图表来直观展示这三种方式的区别：
+
+{{< mermaid >}}
+graph TB
+    subgraph "Leaf Bundle"
+        A[content/posts/] --> B[my-article/]
+        B --> C[index.md]
+        B --> D[images/]
+        B --> E[data.json]
+    end
+    
+    subgraph "Branch Bundle"
+        F[content/posts/] --> G[hugo-guide/]
+        G --> H[index.md 主页]
+        G --> I[installation/]
+        G --> J[config/]
+        I --> K[index.md]
+        J --> L[index.md]
+    end
+    
+    subgraph "Regular Pages"
+        M[content/posts/] --> N[tutorials/]
+        N --> O[hugo-basics.md]
+        N --> P[hugo-themes.md]
+        N --> Q[hugo-deployment.md]
+    end
+{{< /mermaid >}}
+
 ## 推荐使用方案
 
 ### 🏆 **首选：Branch Bundle + Leaf Bundle 混合模式**
@@ -92,6 +122,20 @@ content/posts/tutorials/
 - 每个页面可以独立优化元数据
 - 支持面包屑导航
 
+### 实际应用建议
+
+{{< mermaid >}}
+flowchart TD
+    A{内容类型判断} --> B{是否有子页面?}
+    B -->|是| C[使用Branch Bundle]
+    B -->|否| D{是否有相关资源?}
+    D -->|是| E[使用Leaf Bundle]
+    D -->|否| F[使用Regular Page]
+    
+    C --> G[主页面: index.md<br/>子页面: subdirs/index.md]
+    E --> H[单目录: index.md + 资源文件]
+    F --> I[单文件: article.md]
+{{< /mermaid >}}
 
 ## 关键规则详解
 
@@ -172,6 +216,21 @@ content/posts/skill-learning/
    - Branch Bundle：生成主页面 + 所有子页面
    - Leaf Bundle：**只**生成当前目录的页面
 
+#### **💡 最佳实践决策流程**
+
+{{< mermaid >}}
+flowchart TD
+    Start([创建新目录]) --> Question{这个目录下会有子页面吗?}
+    
+    Question -->|是| Branch[使用 _index.md<br/>🎯 Branch Bundle]
+    Question -->|否| Leaf[使用 index.md<br/>📄 Leaf Bundle]
+    
+    Branch --> BranchExample[例如：技能分类主页<br/>content/posts/skill-learning/_index.md]
+    Leaf --> LeafExample[例如：具体项目介绍<br/>content/posts/my-project/index.md]
+    
+    BranchExample --> Success[✅ 子页面能正常访问]
+    LeafExample --> Success
+{{< /mermaid >}}
 
 ### 🛠️ **其他重要规则**
 
@@ -206,6 +265,61 @@ content/posts/my-series/
 └── chapter2/
     └── index.md    # Leaf Bundle
 ```
+
+## 设计好处分析
+
+### 📁 **资源管理优势**
+
+**传统方式的问题：**
+```
+content/
+├── posts/
+│   ├── article1.md
+│   └── article2.md
+└── images/
+    ├── article1-img1.jpg
+    ├── article1-img2.jpg
+    └── article2-img1.jpg
+```
+
+**Bundle方式的优势：**
+```
+content/posts/
+├── article1/
+│   ├── index.md
+│   ├── featured.jpg
+│   └── diagram.png
+└── article2/
+    ├── index.md
+    └── screenshot.png
+```
+
+### 🔗 **URL结构优势**
+
+{{< mermaid >}}
+graph LR
+    A[Bundle结构] --> B[清晰的URL层次]
+    B --> C[/posts/category/article/]
+    B --> D[利于SEO优化]
+    B --> E[用户友好]
+    
+    F[Regular Pages] --> G[平级URL结构]
+    G --> H[/posts/article1/]
+    G --> I[/posts/article2/]
+{{< /mermaid >}}
+
+### 🚀 **开发效率提升**
+
+1. **内容迁移**：整个Bundle目录可以直接移动
+2. **资源引用**：相对路径引用，不会因目录调整而失效
+3. **模块化管理**：每个Bundle是一个独立的内容单元
+4. **版本控制**：Git中每个Bundle的变更历史清晰
+
+### 📱 **SEO和性能优势**
+
+1. **独立元数据**：每个页面可以设置专属的SEO参数
+2. **图片优化**：Hugo可以自动处理Bundle内的图片资源
+3. **缓存策略**：静态资源与内容分离，便于CDN缓存
 
 
 ## 总结
