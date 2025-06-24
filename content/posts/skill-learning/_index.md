@@ -377,12 +377,12 @@ timeline
 ### 🔥 Apache Flink 实战系列
 
 #### 🚀 实时流处理专题
-- **[Flink Kafka MySQL 查找连接实战](/posts/myself/the_skill_learnd/flink/Flink_Kafka_MySQL_查找连接实战/)**
+- **[Flink Kafka MySQL 查找连接实战](/posts/skill-learning/flink-python/flink-kafka-mysql-lookup/)**
   - 基于 PyFlink 实现实时数据丰富的完整方案
   - IoT 设备数据与元数据的查找连接实践
   - 包含性能优化、监控调试、容错设计的最佳实践
 
-- **[基于PyFlink的电子围栏实时告警系统](/posts/myself/the_skill_learnd/flink/blog_geo_fence_system/)**
+- **[基于PyFlink的电子围栏实时告警系统](/posts/skill-learning/flink-python/blog_geo_fence_system/)**
   - 高性能、低延迟的电子围栏告警系统设计
   - 地理位置计算与实时流处理的完美结合
   - 智能告警触发与去重机制的技术实现
@@ -390,7 +390,7 @@ timeline
 ### 🐳 Docker 容器化技术
 
 #### 📦 镜像构建与优化
-- **[Docker多架构镜像构建实践](/posts/myself/the_skill_learnd/docker/docker-image-build/)**
+- **[Docker多架构镜像构建实践](/posts/skill-learning/docker/docker-image-build/)**
   - 跨平台镜像构建的核心逻辑与最佳实践
   - Docker Buildx 多架构镜像构建详解
   - Windows、Mac、Linux 环境的统一容器化方案
@@ -398,7 +398,7 @@ timeline
 ### 🌐 前端开发实战
 
 #### 💻 Vue.js 企业级应用
-- **[Foundation TypeScript Vue 项目架构与实现](/posts/myself/the_skill_learnd/front/vue/技术博客-Foundation%20TypeScript%20Vue%20项目架构与实现/)**
+- **[Foundation TypeScript Vue 项目架构与实现](/posts/skill-learning/front/vue/foundation-typescript-vue-project-readme/)**
   - 基于 Vue 3 + TypeScript 的企业级设备监控管理系统
   - GraphQL + RESTful API 双重数据交互方案
   - 完整的前端工程化实践：Vite构建、Pinia状态管理、Element Plus UI

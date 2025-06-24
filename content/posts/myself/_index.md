@@ -107,7 +107,8 @@ timeline
 - **技术栈**: PyFlink + Kafka + MySQL + Elasticsearch + Redis
 - **核心价值**: IoT数据实时丰富化处理，支持10万+设备并发监控
 - **技术挑战**: 实时查找连接、地理围栏计算、毫秒级响应、智能去重
-- **详细介绍**: [PyFlink实战](/posts/skill-learning/flink-python/flink-python-project-readme/)
+- **详细介绍**: [Flink实战](/posts/skill-learning/flink/flink-python-project-readme/) 
+             · [PyFlink实战](/posts/skill-learning/flink-python/flink-python-project-readme/) 
 
 ### 💻 Go Foundation 微服务框架
 - **技术栈**: Go + Gin + MySQL + Redis + Elasticsearch + Prometheus
