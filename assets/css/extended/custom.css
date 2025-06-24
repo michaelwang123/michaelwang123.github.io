@@ -30,6 +30,25 @@
     margin-bottom: 1rem;
 }
 
+/* 文章页面标题样式 */
+.post-header h1.post-title {
+    background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 25%, #C084FC 50%, #DDD6FE 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+/* 暗色主题下的文章标题 */
+[data-theme="dark"] .post-header h1.post-title {
+    background: linear-gradient(135deg, #A855F7 0%, #C084FC 25%, #DDD6FE 50%, #F3E8FF 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+
 /* 技术栈网格布局美化 */
 .tech-grid {
     display: grid;
