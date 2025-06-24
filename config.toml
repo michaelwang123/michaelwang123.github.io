@@ -18,7 +18,7 @@ theme = 'PaperMod'
 
 [params]
   contentPadding = "3rem"
-  mainSections = []  # 指向实际文章目录
+  mainSections = ["posts"]  # 指向实际文章目录
   contentMaxWidth = "80ch"
   contentPaddingStyle = "comfortable"
 
