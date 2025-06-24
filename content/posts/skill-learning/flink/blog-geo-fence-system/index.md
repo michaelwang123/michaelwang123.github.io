@@ -1,3 +1,14 @@
+---
+title: "🚀 基于PyFlink的电子围栏实时告警系统"
+description: "基于Apache Flink和Python实现的高性能电子围栏实时告警系统，支持地理围栏监控和智能告警"
+date: 2024-06-23T10:00:00+08:00
+tags: ["Apache Flink", "PyFlink", "地理围栏", "实时计算", "告警系统"]
+categories: ["大数据", "实时计算", "物联网"]
+weight: 1
+ShowToc: true
+TocOpen: true
+---
+
 # 基于PyFlink的电子围栏实时告警系统设计与实现
 
 ## 📋 目录

@@ -1,3 +1,14 @@
+---
+title: "🐳 Docker多架构镜像构建最佳实践"
+description: "深入解析Docker跨平台镜像构建技术，支持Windows、Mac、Linux多架构部署"
+date: 2024-06-23T10:00:00+08:00
+tags: ["Docker", "Multi-Architecture", "CI/CD", "DevOps"]
+categories: ["容器技术", "DevOps实践"]
+weight: 2
+ShowToc: true
+TocOpen: true
+---
+
 不需要分别构建 Windows 和 Mac 专用的 Docker 镜像。Docker 的跨平台特性主要依赖于 **CPU 架构**（如 AMD64、ARM64）的兼容性，而非操作系统类型。以下是具体实现方案和注意事项：
 
 ---
