@@ -1,3 +1,9 @@
+---
+title: "Foundation TypeScript Vue 项目：企业级设备监控管理系统"
+date: 2025-06-21T10:00:00+08:00
+draft: false
+---
+
 # Foundation TypeScript Vue 项目：企业级设备监控管理系统
 
 ## 项目概述

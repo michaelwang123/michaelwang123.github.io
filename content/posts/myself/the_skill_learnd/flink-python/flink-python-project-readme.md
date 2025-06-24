@@ -1,3 +1,14 @@
+---
+title: "🚀 Flink Python 实时数据处理项目"
+description: "基于 Apache Flink 1.19.2 和 Python 实现的企业级实时数据处理管道，支持 IoT 数据实时处理，毫秒级延迟，10万+设备并发监控"
+date: 2024-06-23T10:00:00+08:00
+tags: ["Apache Flink", "PyFlink", "Python", "Kafka", "MySQL", "实时计算", "IoT", "流处理"]
+categories: ["技术实践", "大数据", "实时计算"]
+weight: 3
+ShowToc: true
+TocOpen: true
+---
+
 # 🚀 Flink Python 实时数据处理项目
 
 ![Flink](https://img.shields.io/badge/Apache%20Flink-1.19.2-orange?style=for-the-badge&logo=apache-flink)

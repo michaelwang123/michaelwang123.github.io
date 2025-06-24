@@ -1,3 +1,9 @@
+---
+title: "构建现代化的Go微服务架构：Go Foundation项目实践分享"
+date: 2025-06-22T10:00:00+08:00
+draft: false
+---
+
 # 构建现代化的Go微服务架构：Go Foundation项目实践分享
 
 ## 前言
