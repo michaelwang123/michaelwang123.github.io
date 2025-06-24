@@ -1,7 +1,7 @@
 ---
 title: "基于RAG的企业智能问答系统：让AI成为您的政策专家"
 description: "完整的企业级RAG系统实现，结合Ollama、Milvus和LangChain构建本地化智能问答解决方案"
-date: 2024-06-22T10:00:00+08:00
+date: 2025-06-21T10:00:00+08:00
 draft: false
 tags: ["RAG", "LLM", "Ollama", "Milvus", "LangChain", "企业级应用", "向量数据库", "知识问答"]
 categories: ["技术实践"]
@@ -9,8 +9,6 @@ weight: 1
 ShowToc: true
 TocOpen: true
 ---
-
-# 基于RAG的企业智能问答系统：让AI成为您的政策专家
 
 ## 前言
 

@@ -128,6 +128,13 @@ timeline
 - **项目成果**: 开发效率提升40%，API调用减少60%，维护成本显著降低
 - **详细介绍**: [GraphQL企业级后端架构实践](/posts/skill-learning/graphql/graphql-project-readme/)
 
+### 🤖 RAG企业级智能问答系统
+- **技术栈**: Ollama + Milvus + LangChain + BGE-small-zh-v1.5 + Qwen2.5
+- **核心价值**: 企业私有知识智能问答，本地化部署保障数据安全，政策制度精准解读
+- **技术挑战**: 向量检索优化、中文文档分割、RAG链设计、毫秒级响应性能调优
+- **项目成果**: 政策查询效率提升80%，知识检索准确率达95%，完全离线化部署
+- **详细介绍**: [基于RAG的企业智能问答系统实践](/posts/skill-learning/llm/rag_based_enterprise_qa_system/)
+
 
 
 ## 📚 技术博客目录
