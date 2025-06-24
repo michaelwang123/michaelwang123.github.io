@@ -1,12 +1,3 @@
----
-title: "🌟 我的生活"
-description: "技术之外的精彩人生，让你更全面地了解我"
-date: 2025-06-23T00:00:00+08:00
-weight: 2
-ShowToc: true
-TocOpen: true
-draft: false
----
 
 <div align="center">
 
