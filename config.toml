@@ -27,4 +27,4 @@ theme = 'PaperMod'
     path = "github.com/adityatelange/hugo-PaperMod"
     disable = false
 
-disableKinds = ['taxonomy', 'term', 'rss']  # 仅禁用无关功能
+disableKinds = ['taxonomy', 'term']  # 仅禁用无关功能，保留RSS
