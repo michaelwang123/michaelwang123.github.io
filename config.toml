@@ -21,6 +21,15 @@ theme = 'PaperMod'
   mainSections = ["posts"]  # 指向实际文章目录
   contentMaxWidth = "80ch"
   contentPaddingStyle = "comfortable"
+  
+  # 主题配置
+  defaultTheme = "dark"  # 设置默认主题为暗色
+  disableThemeToggle = false  # 仍允许主题切换
+  
+  # 暗色主题优化
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowReadingTime = true
 
 [module]
   [[module.imports]]

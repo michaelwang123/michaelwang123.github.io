@@ -1,0 +1,21 @@
+{
+  "name": "github-pages-to-pdf",
+  "version": "1.0.0",
+  "description": "将GitHub Pages网站转换为PDF",
+  "main": "convert-to-pdf.js",
+  "scripts": {
+    "convert": "node convert-to-pdf.js",
+    "install-puppeteer": "npm install puppeteer"
+  },
+  "dependencies": {
+    "puppeteer": "^21.11.0"
+  },
+  "keywords": [
+    "pdf",
+    "puppeteer",
+    "github-pages",
+    "convert"
+  ],
+  "author": "Michael",
+  "license": "MIT"
+}
