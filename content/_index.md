@@ -36,7 +36,7 @@ Java · Go · Python · TypeScript
 
 <div class="tech-card">
 <strong>☁️ 云原生</strong>
-Docker · Kubernetes · Prometheus · Grafana
+Docker · K8s · Prometheus · Grafana
 </div>
 
 </div>
@@ -69,7 +69,7 @@ Docker · Kubernetes · Prometheus · Grafana
 <div class="featured-content">
 
 ### 🔗 [开源项目](https://github.com/michaelwang123)
-*Go微服务框架 · Vue企业级应用 · Flink实时计算*
+*Flink实时计算 · Go微服务框架 · RAG企业级智能问答系统 · Vue企业级应用*
 
 </div>
 
@@ -111,7 +111,7 @@ Docker · Kubernetes · Prometheus · Grafana
 
 <div class="contact-section">
 
-### 📬 联系方式
+<h3>📬 联系方式</h3>
 
 [📧 Email](mailto:286790238@qq.com) · [🐙 GitHub](https://github.com/michaelwang123) 
 
