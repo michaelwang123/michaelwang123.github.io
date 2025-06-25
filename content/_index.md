@@ -26,12 +26,12 @@ Apache Flink · Apache Spark · Kafka
 
 <div class="tech-card">
 <strong>💾 数据存储</strong>
-MySQL · Redis · Elasticsearch · Milvus
+HDFS · MySQL · Redis · ES · Milvus · Cassandra · MinIO
 </div>
 
 <div class="tech-card">
 <strong>🛠️ 编程语言</strong>
-Java · Go · Python · JavaScript/TypeScript
+Java · Go · Python · TypeScript
 </div>
 
 <div class="tech-card">
@@ -113,7 +113,7 @@ Docker · Kubernetes · Prometheus · Grafana
 
 ### 📬 联系方式
 
-[📧 Email](mailto:286790238@qq.com) · [🐙 GitHub](https://github.com/michaelwang123) · [💼 LinkedIn](#)
+[📧 Email](mailto:286790238@qq.com) · [🐙 GitHub](https://github.com/michaelwang123) 
 
 *欢迎技术交流与合作*
 
