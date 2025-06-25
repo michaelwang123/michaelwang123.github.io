@@ -1,7 +1,8 @@
 # 核心忽略项：Hugo 生成目录
 /public/         # 忽略所有自动生成的静态文件
 public/
-
+/convert 
+       
 # 开发环境临时文件
 /resources/_gen/  # Hugo 资源缓存[6](@ref)
 .hugo_build.lock  # 构建锁文件
