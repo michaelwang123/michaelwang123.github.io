@@ -1,7 +1,7 @@
 ---
 title: "🎯 我的技能学习之路"
 description: "十年磨一剑，从Java后端到大数据架构师的技能成长历程"
-date: 2024-01-01T00:00:00+08:00
+date: 2026-01-01T00:00:00+08:00
 weight: 1
 ShowToc: true
 TocOpen: true
@@ -246,25 +246,58 @@ timeline
 - **AI工程化实践** - 将ML模型集成到生产环境，MLOps流程建设
 
 ### 📈 项目成果
-- **实时风控系统** - 毫秒级响应，准确率99.9%，日处理金融交易10亿笔
+- **实时风控系统** - 毫秒级响应，准确率99.9%，日处理数据10TB+
 - **数据湖架构** - 统一批流处理，降低开发成本50%，支持PB级数据存储
 - **监控体系** - 全链路可观测，故障发现时间缩短至分钟级，系统可用性99.99%
-- **企业级设备监控平台** - Vue 3 + TypeScript，服务500+企业客户
+- **企业级设备监控平台** - Vue 3 + TypeScript，服务大数据平台指标展现
 - **实时地理围栏系统** - PyFlink实现，支持10万+设备并发监控
 - **多架构容器化平台** - Docker + K8s，支持AMD64/ARM64双架构部署
 
 ### 👥 团队贡献
-- **技术分享** - 内部技术分享50+场次，外部技术会议演讲10+次
+- **技术分享** - 内部技术分享20+场次，外部技术会议演讲10+次
 - **知识沉淀** - 编写技术文档100+篇，技术博客50+篇
 - **团队培养** - 培养高级工程师10+人，技术导师经验丰富
-- **开源贡献** - 参与多个开源项目，提交PR 20+次
+- **开源贡献** - 参与多个开源项目，提交PR 10+次
 - **社区活动** - 技术社区活跃贡献者，组织技术meetup 5+场
 
 ### 🏅 技术认证与荣誉
-- **阿里云认证** - 大数据专业认证、云计算架构师认证
 - **技术专利** - 实时数据处理相关专利2项
 - **技术奖项** - 公司技术创新奖，最佳架构设计奖
-- **行业认可** - 被评为年度优秀技术专家
+
+---
+
+## 📚 技术博客
+
+### 🔥 Apache Flink 实战系列
+
+#### 🚀 实时流处理专题
+- **[Flink Kafka MySQL 查找连接实战](/posts/skill-learning/flink-python/flink-kafka-mysql-lookup/)**
+  - 基于 PyFlink 实现实时数据丰富的完整方案
+  - IoT 设备数据与元数据的查找连接实践
+  - 包含性能优化、监控调试、容错设计的最佳实践
+
+- **[基于PyFlink的电子围栏实时告警系统](/posts/skill-learning/flink-python/blog_geo_fence_system/)**
+  - 高性能、低延迟的电子围栏告警系统设计
+  - 地理位置计算与实时流处理的完美结合
+  - 智能告警触发与去重机制的技术实现
+
+### 🐳 Docker 容器化技术
+
+#### 📦 镜像构建与优化
+- **[Docker多架构镜像构建实践](/posts/skill-learning/docker/docker-image-build/)**
+  - 跨平台镜像构建的核心逻辑与最佳实践
+  - Docker Buildx 多架构镜像构建详解
+  - Windows、Mac、Linux 环境的统一容器化方案
+
+### 🌐 前端开发实战
+
+#### 💻 Vue.js 企业级应用
+- **[Foundation TypeScript Vue 项目架构与实现](/posts/skill-learning/front/vue/foundation-typescript-vue-project-readme/)**
+  - 基于 Vue 3 + TypeScript 的企业级设备监控管理系统
+  - GraphQL + RESTful API 双重数据交互方案
+  - 完整的前端工程化实践：Vite构建、Pinia状态管理、Element Plus UI
+  - 性能优化策略：代码分割、缓存策略、异步处理
+  - 企业级特性：权限控制、数据可视化、Excel处理、地图集成
 
 ---
 
@@ -277,7 +310,7 @@ timeline
 
 ### 🔧 实践验证
 1. **动手实践** - 每个技术点都要亲自验证
-2. **项目应用** - 在实际项目中运用学到的技术
+2. **项目应用** - 在实际项目中运用学到的技术，但稳定性第一
 3. **问题驱动** - 通过解决实际问题加深理解
 
 ### 🚀 持续改进
@@ -292,27 +325,22 @@ timeline
 ### 📚 经典书籍
 
 #### 大数据与架构
-- **《大数据技术原理与应用》** - 林子雨
-- **《Flink实战》** - 朱锋  
-- **《设计数据密集型应用》** - Martin Kleppmann
-- **《大数据架构师指南》** - Bill Inmon
-- **《流式系统》** - Tyler Akidau
+- **《基于Apache Flink的流处理》** - [美] 比安‧霍斯克 / [美] 瓦西里基‧卡拉夫里
+- **《Spark机器学习》** - Nick Pentreath  
+- **《Hadoop计算内幕》** - 董西成
 
 #### 数据库与存储
-- **《高性能MySQL》** - Baron Schwartz
-- **《Redis设计与实现》** - 黄健宏
-- **《深入理解计算机系统》** - Randal E. Bryant
+- **《Prometheus云原生监控》** - 朱政科
+
 
 #### 编程语言与框架
-- **《Java并发编程实战》** - Brian Goetz
+- **《Effective Java》** - Brian Goetz
 - **《Go语言圣经》** - Alan Donovan
-- **《JavaScript高级程序设计》** - Nicholas C. Zakas
-- **《Vue.js设计与实现》** - 霍春阳
+- **《深入理解scala》** - Jushua D. Suereth
 
 #### 系统架构与设计
-- **《微服务架构设计模式》** - Chris Richardson
-- **《云原生应用架构实践》** - Gary Stafford
-- **《系统架构：复杂系统的产品设计与开发》** - Edward Crawley
+- **《极客时间课程》** - 陈浩
+
 
 ### 🌐 在线资源
 
@@ -362,51 +390,6 @@ timeline
 - **创新思维** - 技术驱动业务创新
 
 ---
-
-## 📚 技术博客
-
-### 🔥 Apache Flink 实战系列
-
-#### 🚀 实时流处理专题
-- **[Flink Kafka MySQL 查找连接实战](/posts/skill-learning/flink-python/flink-kafka-mysql-lookup/)**
-  - 基于 PyFlink 实现实时数据丰富的完整方案
-  - IoT 设备数据与元数据的查找连接实践
-  - 包含性能优化、监控调试、容错设计的最佳实践
-
-- **[基于PyFlink的电子围栏实时告警系统](/posts/skill-learning/flink-python/blog_geo_fence_system/)**
-  - 高性能、低延迟的电子围栏告警系统设计
-  - 地理位置计算与实时流处理的完美结合
-  - 智能告警触发与去重机制的技术实现
-
-### 🐳 Docker 容器化技术
-
-#### 📦 镜像构建与优化
-- **[Docker多架构镜像构建实践](/posts/skill-learning/docker/docker-image-build/)**
-  - 跨平台镜像构建的核心逻辑与最佳实践
-  - Docker Buildx 多架构镜像构建详解
-  - Windows、Mac、Linux 环境的统一容器化方案
-
-### 🌐 前端开发实战
-
-#### 💻 Vue.js 企业级应用
-- **[Foundation TypeScript Vue 项目架构与实现](/posts/skill-learning/front/vue/foundation-typescript-vue-project-readme/)**
-  - 基于 Vue 3 + TypeScript 的企业级设备监控管理系统
-  - GraphQL + RESTful API 双重数据交互方案
-  - 完整的前端工程化实践：Vite构建、Pinia状态管理、Element Plus UI
-  - 性能优化策略：代码分割、缓存策略、异步处理
-  - 企业级特性：权限控制、数据可视化、Excel处理、地图集成
-
-#### 🎨 现代前端技术栈
-- **React 生态系统实践** （规划中）
-  - React 18 + TypeScript 最佳实践
-  - Redux Toolkit 状态管理
-  - React Query 数据获取优化
-  - Next.js 全栈开发
-
-- **微前端架构探索** （规划中）
-  - qiankun 微前端实战
-  - Module Federation 联邦模块
-  - 多技术栈团队协作方案
 
 ### 🎯 更多专题（持续更新中）
 
@@ -467,6 +450,17 @@ timeline
   - 数据库查询优化
   - 前端性能优化策略
 
+#### 🎨 现代前端技术栈
+- **React 生态系统实践** （规划中）
+  - React 18 + TypeScript 最佳实践
+  - Redux Toolkit 状态管理
+  - React Query 数据获取优化
+  - Next.js 全栈开发
+
+- **微前端架构探索** （规划中）
+  - qiankun 微前端实战
+  - Module Federation 联邦模块
+  - 多技术栈团队协作方案
 ---
 
 ## 📞 交流与分享
@@ -483,4 +477,4 @@ timeline
 > 
 > 技术学习是一个永无止境的过程，每一项技能的掌握都需要时间的积累和实践的磨练。希望我的学习经历能够激励更多的技术人员在这条路上坚持前行。
 
-*最后更新时间: 2024年1月*
+*最后更新时间: 2026年6月*
