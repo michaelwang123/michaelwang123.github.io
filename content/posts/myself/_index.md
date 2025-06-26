@@ -25,24 +25,25 @@ TocOpen: true
 
 ### 💾 数据存储与检索
 - **Milvus** - 向量数据库实践，AI应用的数据底座
-- **ClickHouse** - OLAP场景数据仓库建设
+- **Cassandra** - 分布式数据库实践，数据分片与高可用方案
 - **Redis** - 缓存架构设计与高可用方案
 - **MySQL/PostgreSQL** - 关系型数据库设计与优化
+- **Elasticsearch** - 分布式搜索引擎，全文检索与聚合分析
 
 ### 🛠️ 编程语言
 - **Java** - 企业级应用开发，Spring生态深度实践
 - **Go** - 微服务架构，高并发系统开发
 - **Python** - 数据科学、机器学习工程化
-- **Scala** - Spark生态开发，函数式编程实践
+- **TypeScript** - 企业级前端开发，Vue 3 + Pinia + GraphQL + Element Plus
 
 ### 📊 监控与运维
 - **Prometheus + Grafana** - 全栈监控体系建设
-- **ELK Stack** - 日志分析与运维监控
-- **Kubernetes** - 容器化部署与集群管理
+- **Loki** - 日志分析与运维监控
 - **Docker** - 应用容器化最佳实践
-
+- **Kubernetes** - 容器化部署与集群管理
+- 
 ### ☁️ 云服务实践
-- **阿里云** - 大数据产品深度使用，MaxCompute、DataWorks等
+- **阿里云** - 迁移到阿里云，DTS数据迁移，MaxCompute、DataWorks等
 - **云原生架构** - Serverless、微服务、DevOps实践
 
 ---
