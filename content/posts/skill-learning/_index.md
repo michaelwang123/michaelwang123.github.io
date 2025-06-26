@@ -86,7 +86,7 @@ layout: "single"
   - 高并发程序设计
   - 云原生应用开发
 
-- **Python** ⭐⭐⭐⭐
+- **Python** ⭐⭐⭐
   - 数据科学与机器学习
   - 自动化脚本开发
   - Web框架应用
@@ -96,19 +96,19 @@ layout: "single"
   - 函数式编程实践
 
 #### 前端开发
-- **JavaScript/TypeScript** ⭐⭐⭐⭐⭐
+- **JavaScript/TypeScript** ⭐⭐⭐
   - Vue 3 + TypeScript企业级应用开发
   - React生态系统与Next.js全栈开发
   - ES6+现代JavaScript特性
   - 前端工程化与构建优化
 
-- **Vue.js生态** ⭐⭐⭐⭐⭐
+- **Vue.js生态** ⭐⭐⭐
   - Vue 3 Composition API深度实践
   - Pinia状态管理
   - Vue Router路由设计
   - Vite构建工具优化
 
-- **前端工程化** ⭐⭐⭐⭐
+- **前端工程化** ⭐
   - Webpack/Vite构建配置
   - 代码质量控制（ESLint/Prettier）
   - 自动化测试与CI/CD
@@ -122,17 +122,14 @@ layout: "single"
   - 自定义指标设计
   - 告警策略优化
 
-- **ELK Stack** ⭐⭐⭐⭐
-  - 日志收集与分析
-  - 运维监控实践
 
 #### 容器化与编排
-- **Docker** ⭐⭐⭐⭐⭐
+- **Docker** ⭐⭐⭐⭐
   - 容器化最佳实践
   - 镜像构建优化
   - [Docker学习笔记](/posts/skill-learning/docker/)
 
-- **Kubernetes** ⭐⭐⭐⭐
+- **Kubernetes** ⭐⭐⭐
   - 集群部署与管理
   - 微服务编排
   - DevOps实践
@@ -180,7 +177,7 @@ timeline
            : 性能优化
            : 团队协作
     
-    2013年 : Hadoop生态入门
+    2013年 : Hadoop、Hive生态入门
            : HDFS + MapReduce
            : 大数据概念
            : 数据仓库理论
@@ -191,24 +188,23 @@ timeline
            : ETL流程设计
     
     2015年 : Apache Spark
-           : 批处理优化
+           : Storm流处理
            : Scala语言
            : 内存计算
     
     2016年 : 大数据架构
-           : 数据湖概念
-           : 数据治理
+           : Spark流计算
+           : spark机器学习
            : 元数据管理
     
     2017年 : 数仓建模
-           : 维度建模
-           : 数据质量
+           : Go语言
+           : word2vec
            : 调度系统
     
-    2018年 : 实时计算入门
-           : Storm流处理
+    2018年 : 流批结合
+           : couchbase
            : Kafka消息队列
-           : 流批结合
     
     2019年 : Apache Flink
            : 流处理架构
@@ -220,26 +216,21 @@ timeline
            : 容错机制
            : 低延迟架构
     
-    2021年 : Go语言
-           : 微服务架构
-           : 云原生技术
-           : Docker容器化
+    2021年 : paddlepaddle
+           : 推荐模型工程化
+           : AB、模型监控
+           : 容器化
     
-    2022年 : Kubernetes
-           : Prometheus监控
-           : DevOps实践
+    2022年 : 0到1搭建IoT大数据平台
            : 系统可观测性
-    
-    2023年 : 向量数据库
+           : 团队建设
+
+    2023年-now : 向量数据库
            : Milvus实践
            : AI工程化
            : 技术管理
-    
-    2024年 : 架构师角色
-           : 技术选型
            : 团队建设
            : 全栈能力提升
-           : Vue 3企业级实践
 {{< /mermaid >}}
 
 ---
